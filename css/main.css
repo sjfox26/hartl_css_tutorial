@@ -58,6 +58,7 @@ body {
     font-family: helvetica, arial, sans;
 }
 .content-container {
+    display: flex;/* makes it a flex container at the same time it is a flex item (with body as container)*/
     flex: 1 1 auto;
     padding-top: 10vh;
     width: 100%;
@@ -170,6 +171,7 @@ h2 ~ p {
 /* COLUMN STYLES */
 .col-three {
     display: flex;
+    flex: 1;
 }
 .col {
     box-sizing: border-box;
