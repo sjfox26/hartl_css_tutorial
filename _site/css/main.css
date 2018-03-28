@@ -486,3 +486,14 @@ h4 {
     margin-top: 3em;
     padding-top: 2em;
 }
+
+/* MOBILE STYLES */
+@media (max-width: 800px) {
+    html {
+        box-shadow: none;
+        padding: 0;
+    }
+    .post-aside {
+        display: none;
+    }
+}
